@@ -15,9 +15,9 @@ public class ControleTelaMenu implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(e.getSource()==tela.getNovoJogo())
+        if(e.getSource()==tela.getNovoJogo()) {
 
-            else if (e.getSource()==tela.getInstrucoes()){
+        }else if (e.getSource()==tela.getInstrucoes()){
 
         }else if (e.getSource()==tela.getSair()){
                 System.exit(0);
